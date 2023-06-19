@@ -1,21 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - Prints all the letters except q and e
+ * main- Prints all the letters except q and e
+ * @void: Null value
  *
- * Return: Always 0
- *
+ * Description: Print alphabet lowercase
+ * Return: Zero value
  */
+
 int main(void)
 {
-        char alph[24] = "abcdfghijklmnoprstuvwxyz";
-        int num = 0;
+	char  "abcdfghijklmnoprstuvwxyz";
 
-        while (num < 24)
-        {
-                putchar(alph[num]);
-                num++;
-        }
-        putchar('\n');
-        return (0);
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		if (c == 'q' || c == 'e')
+			continue;
+		putchar(c);
+	}
+	putchar('\n');
+	return (0);
 }
