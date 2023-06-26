@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * 1-swap.c - a function that swaps the values of two integers
- * @a: first integer
- * @b: second integer
+ * swap_int - a function that swaps the values of two integers
+ * @a: integer 1
+ * @b: integer 2
  * Return: integers
  */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 	int n;
 
